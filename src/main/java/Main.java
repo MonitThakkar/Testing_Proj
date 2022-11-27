@@ -746,8 +746,8 @@ public class Main {
         // contains sorted numbers according to current digit
         for (i = 0; i < n; i++) {
             arr[i] = output[i];
-            System.out.print(arr[i]+" ");
-            System.out.println();
+//            System.out.print(arr[i]+" ");
+//            System.out.println();
         }
 
 

@@ -23,6 +23,7 @@ public class MainTest {
         assertEquals(2,Main.countSetBits(2));
         //du path 1-2-3-4-12-2-13 for variable n,i,j
         assertEquals(1,Main.countSetBits(1));
+        System.out.println("Testing Completed : countSetBits");
     }
 
     @Test
@@ -41,6 +42,7 @@ public class MainTest {
         assertEquals(true,obj.isPrime(5));
         //du path 1-2-4-6-8-9-11-13-9-11-12 for variable i
         assertEquals(false,obj.isPrime(1000000005));
+        System.out.println("Testing Completed : isPrime");
 
     }
 
@@ -57,6 +59,7 @@ public class MainTest {
 
         //du path 1-2-3-5-2-6 for variable i
         assertNotEquals(true,"abab");
+        System.out.println("Testing Completed : isPalindrome");
     }
 
     @Test
@@ -71,7 +74,7 @@ public class MainTest {
         //du path 1-2-3-4-6-3-7 for variable i
         ArrayList arr3=new ArrayList<>(Arrays.asList(1,2,3,4));
         assertEquals(1,obj.min(arr3));
-
+        System.out.println("Testing Completed : min");
     }
 
     @Test
@@ -93,6 +96,7 @@ public class MainTest {
         int exp3[]={2,22,5,6,11,19};
         Main.countSort(arr3,6,2);
         assertArrayEquals(exp3,arr3);
+        System.out.println("Testing Completed : countSort");
     }
     @Test
     public void getMedian()
@@ -111,6 +115,7 @@ public class MainTest {
         int arr5[]={2,4,7,9,15};
         int arr6[]={3,5,6,8,10};
         assertEquals(6,obj.getMedian(arr5,arr6,arr5.length,arr6.length));
+        System.out.println("Testing Completed : getMedian");
 
     }
 }
