@@ -37,10 +37,20 @@ cd target
 java -jar STMaven-1.0-SNAPSHOT.jar
 ```
 
-## Run Tests
+## Build Project
 ------------
 
 Change directory to the project directory and run the command:
 ```sh
-mvn clean test
+mvn clean
+mvn install
+mvn compile
+```
+
+## Run Tests
+------------
+
+Now for running the test cases run the following command:
+```sh
+mvn test
 ```
